@@ -1,5 +1,5 @@
-IMAGE_NAME=cswl/xampp
-CONTAINER_NAME=xamppy-docker
+IMAGE_NAME=pavel-kubik/xampp
+CONTAINER_NAME=xampp-docker
 PUBLIC_WWW_DIR='~/web_pages'
 
 
