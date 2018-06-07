@@ -42,6 +42,20 @@ Second, change directory to the just now cloned repository.
 $ docker build -t cswl/xampp .
 ```
 
+## Show FTP config gui in hosting system
+
+Run
+```
+gadmin-proftp
+```
+in docker. To accept Xwindows connection on host, run
+```
+xhost +
+```
+on docker host system.
+
+https://stackoverflow.com/questions/28392949/running-chromium-inside-docker-gtk-cannot-open-display-0
+
 ## License
 
 The scripts and Dockerfile are licensed under the GPL-3.0 license.

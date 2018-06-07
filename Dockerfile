@@ -5,8 +5,8 @@ FROM ubuntu:17.10
 
 # Install curl and net-stats for XAMPP
 RUN apt-get update && \
-    apt-get -yq upgrade && \
-	apt-get install -yq curl net-tools
+	apt-get -yq upgrade && \
+	apt-get install -yq curl net-tools gadmin-proftpd
 
 # Download the installer (7.2.4)
 RUN XAMPP_DL_LINK=' \
